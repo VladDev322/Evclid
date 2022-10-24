@@ -286,8 +286,6 @@ ul {
 }
 
 .about__block__text {
-  /* margin-left: 50px;
-  margin-right: 139px; */
   max-width: 454px;
   line-height: 32px;
 }
@@ -330,11 +328,6 @@ ul {
   height: 165px;
   width: 190px;
 }
-
-/* .about__card__info {
-  margin-top: 65px;
-  margin-left: 50px;
-} */
 
 .about__card__title {
   margin-top: 0;
@@ -400,8 +393,6 @@ ul {
 .about__step-active {
   display: block;
 }
-
-
 
 .about__info__title {
   margin-top: 45px;
@@ -564,10 +555,6 @@ ul {
   fill: var(--orange);
 }
 
-/* .footer__mid {
-  margin-right: 236px;
-} */
-
 .footer__title {
   margin-top: 50px;
   margin-bottom: 25px;
@@ -635,7 +622,6 @@ ul {
 
 .checkbox {
   margin-top: 22px;
-  /* margin-right: 4px; */
   width: 14px;
   height: 14px;
 }
@@ -821,9 +807,7 @@ ul {
     /* width: 80%; */
     font-size: 18px;
   }
-  /* .about__block__left {
-    background-position: center;
-  } */
+
   .about__title {
     font-size: 40px;
   }
