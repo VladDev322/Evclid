@@ -25,6 +25,75 @@ ul {
   padding-left: 0;
 }
 
+.ui-accordion .ui-accordion-header {  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0.5em 40px 0.7em;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+}
+
+.accordion-header:hover {
+  color: var(--orange);
+}
+
+.accordion-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #333333;
+}
+
+.ui-accordion .ui-accordion-header {
+  margin-top: 0px;
+}
+
+.ui-state-default {
+  border-top: 1px solid #CACACA;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  background-color: #FFFFFF;
+}
+
+.ui-state-default:hover {
+  border-top: 1px solid var(--orange);
+  border-bottom: 1px solid var(--orange);
+}
+
+.accordion-header:nth-last-child(2) {
+  border-bottom: 1px solid #CACACA;
+}
+
+.accordion-header:nth-last-child(2):hover {
+  border-bottom: 1px solid var(--orange);
+}
+
+.ui-widget-content {
+  border: none;
+}
+
+.ui-state-default .questions__plus {
+  transition: transform 0.2s linear;
+  transform:rotate(0deg);
+}
+
+.ui-state-active {
+  background-color: #FFFFFF;
+}
+
+.ui-state-active .questions__plus {
+  transition: transform 0.2s linear;
+  transform:rotate(45deg);
+}
+
+
 .title {
   font-style: normal;
   font-weight: normal;
@@ -307,9 +376,9 @@ ul {
   cursor: pointer;
 }
 
-/* .work__step:not(:last-child) {
-  margin-right: 80px;
-} */
+.work__step-active {
+  color: var(--orangelite)
+}
 
 .work__step:hover {
   color: var(--orangelite);
@@ -473,6 +542,10 @@ ul {
   font-size: 18px;
   line-height: 36px;
   color: #CACACA;
+}
+
+.footer__link:hover {
+  color: var(--orangelite)
 }
 
 .footer__social-link:not(:last-child) {
