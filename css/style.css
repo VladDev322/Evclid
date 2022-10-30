@@ -37,6 +37,10 @@ ul {
   color: #333333;
 }
 
+.ui-accordion-header-icon {
+  display: none;
+}
+
 .accordion-header:hover {
   color: var(--orange);
 }

@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
   })
 
   //SWIPER 
-  const swiper = new Swiper('.swiper', {
+  const swiwer = new Swiper('.swiper', {
     // Optional parameters
     loop: true,
 
@@ -46,7 +46,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //accordion
     $(function() {
-      $("#accordion").accordion();
+      $("#accordion").accordion({
+        active: true,
+        collapsible: true  
+      });    
     });
 })
 
