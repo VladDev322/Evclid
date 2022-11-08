@@ -113,6 +113,11 @@ ul {
 
 /* HEADER  */
 .header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  background-color: #fff;
   box-shadow: 0 0 30px 0 rgba(122,122,122,0.3);
 }
 
@@ -162,6 +167,9 @@ ul {
 }
 
 /* GALLERY  */
+.main {
+  margin-top: 100px;
+}
 .swiper {
   height: 620px;
 }
