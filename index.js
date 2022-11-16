@@ -5,6 +5,12 @@ document.addEventListener('DOMContentLoaded', function() {
     workStep.addEventListener('click', function(event) {
       const path = event.currentTarget.dataset.path
 
+      //change step color
+      document.querySelectorAll('.work__step').forEach(function(stepNumber) {
+        stepNumber.classList.remove('work__step-active')
+      })
+      document.querySelector(`[data-path="${path}"]`).classList.add('work__step-active')
+
       //change text
       document.querySelectorAll('.about__step').forEach(function(stepContent) {
         stepContent.classList.remove('about__step-active')
